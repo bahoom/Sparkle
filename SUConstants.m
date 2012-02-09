@@ -30,6 +30,7 @@ NSString *const SUAllowsAutomaticUpdatesKey = @"SUAllowsAutomaticUpdates";
 NSString *const SUEnableSystemProfilingKey = @"SUEnableSystemProfiling";
 NSString *const SUEnableAutomaticChecksKey = @"SUEnableAutomaticChecks";
 NSString *const SUEnableAutomaticChecksKeyOld = @"SUCheckAtStartup";
+NSString *const SUEnableSkipVersionKey = @"SUEnableSkipVersion";
 NSString *const SUSendProfileInfoKey = @"SUSendProfileInfo";
 NSString *const SULastProfileSubmitDateKey = @"SULastProfileSubmissionDate";
 NSString *const SUPromptUserOnFirstLaunchKey = @"SUPromptUserOnFirstLaunch";

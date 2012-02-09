@@ -217,6 +217,11 @@
 	skipBtnBox.size.width = titleSize.width;
 	[skipButton setFrame: skipBtnBox];
 	minimumWindowWidth += DISTANCE_BETWEEN_BUTTON_GROUPS +titleSize.width;
+    
+    if([host objectForInfoDictionaryKey:SUEnableSkipVersionKey] 
+       && ![host objectForInfoDictionaryKey:SUEnableSkipVersionKey]) {
+        [skipButton setHidden:YES];
+    }
 	
 	if( showReleaseNotes )	// UK 2007-09-18 (whole block)
 	{
